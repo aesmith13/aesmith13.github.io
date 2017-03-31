@@ -23,6 +23,7 @@ ul {
 	overflow: hidden;
 	background-color: #333;
 }
+/*
 .categories a {
 	color: maroon;
 	float:left;
@@ -31,7 +32,7 @@ ul {
 }
 .categories img {
 	width:100%;
-}
+} */
 li a {
 	display: block;
 	color: white;
