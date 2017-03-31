@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans+Condensed:300');
+* { margin:0; padding:0; box-sizing:border-box; }
 body  {
 	background-color: #F5F5F5;
 }
@@ -22,16 +23,14 @@ ul {
 	overflow: hidden;
 	background-color: #333;
 }
-
-header li {
-	float:right;
-}
-
-.categories li {
+.categories a {
 	color: maroon;
+	float:left;
+	margin:0.5%;
+	width:24%;
 }
-li {
-	/*float: right;*/
+.categories img {
+	width:100%;
 }
 li a {
 	display: block;
