@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans+Condensed:300');
+body  {
+	background-color: #F5F5F5;
+}
+header {
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-color: #ffffff;
+	font-size: 1.5em;
+}
+h1	{
+	font-size: 4em;
+	margin: 0;
+	padding-right: 0;
+	float: left;
+}
+nav#menu{
+	text-align: right;
+	text-decoration: none;
+}
+#menu a {
+	text-decoration: none;
+	color: black;
+	padding-right: 1%;
+}
+#menu a:hover {
+	background-color: #aaaaaa;
+}
+#slogan {
+	font-style: italic;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: center;
+}
+p 	{
+	color: #808000;
+	font-family: 'Droid Serif', serif;
+}
+img   {
+	width: 100%;
+}
+#two {
+	border: 5px black solid;
+	padding: 20px;
+	margin:20px 0px 20px 0px ;
+	text-align: center;
+	font-weight: bolder;
+}
+.categories{
+	text-align: center;
+	float: left;
+	margin:5px 50px 5px 50px;
+}
+.categories img {
+	width: 22%;
+}
+.categories a {
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
